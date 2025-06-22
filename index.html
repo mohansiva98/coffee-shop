@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The MoCafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .hero {
+      background: url('background.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero p {
+      font-size: 1.4rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn {
+      background-color: #c79c60;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #b2854e;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+      }
+
+      .btn {
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>Welcome to The MoCafe</h1>
+    <p>Crafted Coffee. Cozy Vibes. Community Warmth.</p>
+    <a href="mailto:contact@themocafe.shop" class="btn">Contact Us</a>
+  </section>
+</body>
+</html>
